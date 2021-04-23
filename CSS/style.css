@@ -2,20 +2,35 @@ li {
     color: rgb(109, 114, 112);
 }
 
-.nav_links {
-    display: inline-block;
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #575c5b;
+    color: white;
+  }
+
+.navigation {
+    background-color: rgb(247, 243, 238);
 }
+
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .navbar {
+    display: flex;
+    background-color: rgb(109, 114, 112);
+  }
 
 .logo {
     width: 23%;
     padding: 1%;
-    text-align: center;
+   image-orientation: center;
 }
-SS
-#nav {
-    width: 73%;
-    padding: 1%;
-}
+
 
 #ul {
     width: 50%;
@@ -23,7 +38,7 @@ SS
 }
 
 #heroImg {
-    height: 600px;
+    height: 500px;
     padding: 25px;
 }
 
@@ -33,5 +48,18 @@ SS
 }
 
 footer {
-    background-color: #373738;
+    background-color: rgb(109, 114, 112);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#categoryGrid {
+    grid-template-rows: 300px 300px 300px 
+    grid-template-columns: 1fr;
+
+}
+
+section {
+  display: flex;
 }
